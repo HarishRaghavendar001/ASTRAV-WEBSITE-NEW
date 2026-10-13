@@ -912,3 +912,10 @@ height:250px;
         border-radius: 5px;
     }
 }
+/* DISABLED APPOINTMENT SUBMIT BUTTON */
+.appointment-submit:disabled {
+    opacity: 0.7;
+    color: #25d366;
+    cursor: not-allowed;
+    pointer-events: none;
+}
